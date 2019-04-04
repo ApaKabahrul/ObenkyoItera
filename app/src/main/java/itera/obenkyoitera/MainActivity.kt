@@ -4,10 +4,11 @@ import android.content.Intent
 import android.content.Intent.FLAG_GRANT_READ_URI_PERMISSION
 import android.net.Uri
 import android.os.Bundle
-import android.support.design.widget.Snackbar
+//import android.support.design.widget.Snackbar
 import android.support.v4.content.FileProvider
 import android.support.v7.app.AppCompatActivity
 import android.webkit.MimeTypeMap
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import java.io.File
 
@@ -89,16 +90,19 @@ class MainActivity : AppCompatActivity(), ServiceListener {
         if (intent.resolveActivity(packageManager) != null) {
             startActivity(intent)
         } else {
-            Snackbar.make(main_layout, R.string.not_open_file, Snackbar.LENGTH_LONG).show()
+            //Snackbar.make(main_layout, R.string.not_open_file, Snackbar.LENGTH_LONG).show()
+            Toast.makeText(this, R.string.not_open_file, Toast.LENGTH_LONG).show()
         }
     }
 
     override fun cancelled() {
-        Snackbar.make(main_layout, R.string.status_user_cancelled, Snackbar.LENGTH_LONG).show()
+        //Snackbar.make(main_layout, R.string.status_user_cancelled, Snackbar.LENGTH_LONG).show()
+        Toast.makeText(this, R.string.status_user_cancelled, Toast.LENGTH_LONG).show()
     }
 
     override fun handleError(exception: Exception) {
         val errorMessage = getString(R.string.status_error, exception.message)
-        Snackbar.make(main_layout, errorMessage, Snackbar.LENGTH_LONG).show()
+        //Snackbar.make(main_layout, errorMessage, Snackbar.LENGTH_LONG).show()
+        Toast.makeText(this, errorMessage, Toast.LENGTH_LONG).show()
     }
 }
