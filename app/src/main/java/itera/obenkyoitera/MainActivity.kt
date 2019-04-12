@@ -64,6 +64,11 @@ class MainActivity : AppCompatActivity(), ServiceListener {
             state = ButtonState.LOGGED_OUT
             setButtons()
         }
+
+        tr.setOnClickListener {
+            startActivity(Intent(this, TranslateActivity::class.java))
+        }
+
         setButtons()
     }
 
@@ -105,4 +110,6 @@ class MainActivity : AppCompatActivity(), ServiceListener {
         //Snackbar.make(main_layout, errorMessage, Snackbar.LENGTH_LONG).show()
         Toast.makeText(this, errorMessage, Toast.LENGTH_LONG).show()
     }
+
+
 }
