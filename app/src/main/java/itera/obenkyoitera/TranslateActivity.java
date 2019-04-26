@@ -55,7 +55,7 @@ public class TranslateActivity extends AppCompatActivity {
     public void tukar(View view) {
         if (langCode_1.getText().toString().equals("Bahasa Indonesia") ){
             langCode_2.setText(R.string.ID);
-            langCode_1.setText(R.string.JA);
+           langCode_1.setText(R.string.JA);
             languagePair = "ja-id";
         }
         else {
