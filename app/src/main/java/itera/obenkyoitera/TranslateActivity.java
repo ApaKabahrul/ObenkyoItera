@@ -10,6 +10,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import static itera.obenkyoitera.TranslatorBackgroundTask.hasil;
+
 public class TranslateActivity extends AppCompatActivity {
 
     TextView langCode_1;
@@ -49,7 +51,8 @@ public class TranslateActivity extends AppCompatActivity {
     void Translate(String textToBeTranslated,String languagePair){
         TranslatorBackgroundTask translatorBackgroundTask= new TranslatorBackgroundTask(context);
         translationResult = translatorBackgroundTask.execute(textToBeTranslated,languagePair); // Returns the translated text as a String
-        Log.d("Translation Result", String.valueOf(translationResult)); // Logs the result in Android Monitor
+        //Log.d("Translation", String.valueOf(translationResult)); // Logs the result in Android Monitor
+        resultTr.setText(hasil);
     }
 
     public void tukar(View view) {

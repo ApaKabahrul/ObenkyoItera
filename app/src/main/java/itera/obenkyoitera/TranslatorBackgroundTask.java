@@ -12,13 +12,10 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-/**
- * Created by DoguD on 01/07/2017.
- */
-
 public class TranslatorBackgroundTask extends AsyncTask<String, Void, String> {
     //Declare Context
     Context ctx;
+    static String hasil;
     //Set Context
     TranslatorBackgroundTask(Context ctx){
         this.ctx = ctx;
@@ -65,6 +62,7 @@ public class TranslatorBackgroundTask extends AsyncTask<String, Void, String> {
             resultString = resultString.substring(0,resultString.indexOf("\""));
 
             Log.d("Translation Result:", resultString);
+            hasil = resultString;
             return jsonStringBuilder.toString().trim();
 
         } catch (MalformedURLException e) {
@@ -83,7 +81,7 @@ public class TranslatorBackgroundTask extends AsyncTask<String, Void, String> {
     @Override
     protected void onPostExecute(String result) {
     }
-    
+
     @Override
     protected void onProgressUpdate(Void... values) {
         super.onProgressUpdate(values);
