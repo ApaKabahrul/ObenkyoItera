@@ -36,7 +36,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="24dp"
                 android:layout_marginEnd="8dp"
-                android:text="@string/katakana"
+                android:text="@string/hiragana"
                 android:textAlignment="center"
                 android:textColor="#000"
                 android:textSize="24sp"
@@ -84,9 +84,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="あ"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -108,9 +112,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="い"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -132,9 +140,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="う"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -156,9 +168,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="え"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -180,9 +196,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="お"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -212,9 +232,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="か"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -236,9 +260,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="き"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -260,9 +288,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="く"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -284,9 +316,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="け"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -308,9 +344,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:gravity="center"
+                            android:text="こ"
+                            android:textColor="#000"
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -341,9 +381,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="さ"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -365,9 +409,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="し"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -389,9 +437,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="す"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -413,9 +465,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="せ"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -437,9 +493,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="そ"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -471,9 +531,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="た"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -495,9 +559,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="ち"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -519,9 +587,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="つ"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -543,9 +615,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="て"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -567,9 +643,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="と"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -600,9 +680,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="な"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -624,9 +708,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="に"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -648,9 +736,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="ぬ"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -672,9 +764,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="ね"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -696,9 +792,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="の"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -729,9 +829,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="は"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -753,9 +857,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="ひ"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -776,9 +884,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="ふ"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -800,9 +912,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="へ"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -824,9 +940,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="ほ"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -858,9 +978,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="ま"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -882,9 +1006,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="み"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -906,9 +1034,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="む"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -930,9 +1062,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="め"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -954,9 +1090,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="も"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -971,7 +1111,7 @@
 
 
                 </LinearLayout>
-				
+
 				<LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -987,9 +1127,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="や"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -1011,9 +1155,12 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -1034,9 +1181,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="ゆ"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -1058,9 +1209,12 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -1081,9 +1235,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="よ"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -1098,7 +1256,7 @@
 
 
                 </LinearLayout>
-				
+
 				<LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -1114,9 +1272,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="ら"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -1138,9 +1300,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="り"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -1162,9 +1328,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="る"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -1186,9 +1356,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="れ"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -1210,9 +1384,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="ろ"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -1227,7 +1405,7 @@
 
 
                 </LinearLayout>
-				
+
 				<LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -1243,9 +1421,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="わ"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -1267,9 +1449,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="ゐ"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -1291,9 +1477,12 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -1313,9 +1502,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="ゑ"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -1337,9 +1530,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="を"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -1354,7 +1551,7 @@
 
 
                 </LinearLayout>
-				
+
 				<LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -1370,9 +1567,13 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:text="ん"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -1394,9 +1595,12 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -1417,9 +1621,12 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -1439,9 +1646,12 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -1462,9 +1672,12 @@
                         android:orientation="vertical">
 
 
-                        <ImageView
+                        <TextView
                             android:layout_width="64dp"
-                            android:layout_height="64dp" />
+                            android:layout_height="64dp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textSize="50sp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
