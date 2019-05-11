@@ -13,7 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".HiraganaActivity"></activity>
+        <activity android:name=".HiraganaActivity"/>
+        <activity android:name=".NumberActivity"/>
         <activity android:name=".KatakanaActivity" />
         <activity android:name=".Splash">
             <intent-filter>

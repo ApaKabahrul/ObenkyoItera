@@ -20,4 +20,5 @@
     <string name="terjemah">Translate</string>
     <string name="katakana">Katakana</string>
     <string name="hiragana">Hiragana</string>
+    <string name="number">Number</string>
 </resources>
