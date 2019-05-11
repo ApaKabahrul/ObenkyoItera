@@ -74,7 +74,7 @@ class MainActivity : AppCompatActivity(), ServiceListener {
         }
 
         hg.setOnClickListener {
-            startActivity(Intent(this, KatakanaActivity::class.java))
+            startActivity(Intent(this, HiraganaActivity::class.java))
         }
 
         setButtons()
